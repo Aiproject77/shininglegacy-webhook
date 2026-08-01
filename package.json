@@ -1,0 +1,10 @@
+{
+  "name": "shininglegacy-narratiq-webhook",
+  "version": "1.0.0",
+  "description": "Narratiq webhook — auto-publishes blog articles to Shining Legacy via GitHub",
+  "main": "api/webhook.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "dev": "vercel dev"
+  }
+}
