@@ -374,6 +374,14 @@ async function ghPush(path, content, message, sha) {
 
 // ─── Handler ──────────────────────────────────────────────────────────────────
 module.exports = async function handler(req, res) {
+  // CORS headers — allow browser-based testing tools
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, x-narratiq-secret, x-webhook-secret');
+
+  // Handle preflight OPTIONS request
+  if (req.method === 'OPTIONS') return res.status(200).end();
+
   if (req.method !== 'POST') return res.status(405).json({ error: 'Method not allowed' });
 
   const secret = req.headers['x-narratiq-secret'] || req.headers['x-webhook-secret'];
