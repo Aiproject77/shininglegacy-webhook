@@ -176,14 +176,16 @@ function generateArticleHTML(a) {
 <body>
 
 <nav>
-  <a href="index.html">
-    <img class="nav-logo" src="shininglegacylogo1-removebg-preview.png" alt="Shining Legacy Commercial Cleaning">
+  <a href="index.html" style="display:flex;align-items:center;gap:8px;text-decoration:none">
+    <img src="https://shininglegacy.vercel.app/shininglegacylogo1-removebg-preview.png" alt="Shining Legacy" style="height:44px" onerror="this.style.display='none'">
+    <span style="font-family:Poppins,sans-serif;font-weight:800;font-size:1rem;color:var(--navy);line-height:1.1">Shining Legacy<br><span style="font-size:.65rem;font-weight:600;color:var(--green);letter-spacing:.04em">COMMERCIAL CLEANING</span></span>
   </a>
   <div class="nav-links" id="nav-links">
     <a href="services.html">Services</a>
     <a href="about.html">About</a>
     <a href="services.html">What We Clean</a>
     <a href="checklist.html">Free Checklist</a>
+    <a href="blog.html">Blog</a>
     <a href="contact.html">Contact</a>
     <a class="nav-phone" href="tel:4377811769">
       <svg width="15" height="15" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 7V5z"/></svg>
