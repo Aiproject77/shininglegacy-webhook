@@ -297,7 +297,7 @@ function generateArticleHTML(a) {
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2025 Shining Legacy Commercial Cleaning Inc. All rights reserved.</span>
+      <span>&copy; 2026 Shining Legacy Commercial Cleaning Inc. All rights reserved.</span>
       <div style="display:flex;gap:16px">
         <a href="privacy.html" style="color:rgba(255,255,255,.4)">Privacy</a>
         <a href="sitemap.xml" style="color:rgba(255,255,255,.4)">Sitemap</a>
